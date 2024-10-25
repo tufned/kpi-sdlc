@@ -4,7 +4,7 @@ export const routes = {
   owner: {route: "/owner", path: "/owner"},
   vet: {route: "/vet", path: "/vet"},
   caretaker: {route: "/caretaker", path: "/caretaker"},
-  medicalBook: {route: "/medicalBook", path: "/medicalBook"},
+  medicalBook: {route: "/medical-book", path: "/medical-book"},
   pets: {
     route: "/pets",
     path: "/pets",

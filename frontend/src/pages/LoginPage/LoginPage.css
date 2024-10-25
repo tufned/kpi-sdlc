@@ -1,0 +1,65 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-popup {
+    height: 600px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-popup h1 {
+    font-size: 36px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-shell {
+    margin-top: 20px;
+}
+.input-shell p {
+    margin: 7px 0;
+}
+input {
+    padding: 10px 15px;
+    border: 1px solid #1a1a1a;
+    border-radius: 10px;
+    width: 220px;
+}
+
+
+.register-toggle {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: #ececec;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.register-toggle-item {
+    padding: 10px 15px;
+}
+.register-toggle-item:hover {
+    background-color: #32CD32;
+}
+.register-toggle-item.active {
+    background-color: #32CD32;
+}
+
+
+.login-submit-but {
+    margin-top: 20px;
+    background-color: #32CD32;
+}

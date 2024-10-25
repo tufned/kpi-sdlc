@@ -1,0 +1,29 @@
+header {
+    background-color: #32CD32;
+    padding: 20px;
+    text-align: center;
+}
+.content {
+    margin: 20px;
+}
+.animal-list {
+    margin-top: 20px;
+}
+.animal {
+    background-color: #98FB98;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #32CD32;
+}
+button {
+    background-color: #32CD32;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h3{
+    color: #32CD32;
+}

@@ -1,0 +1,52 @@
+header {
+    background-color: #32CD32;
+    padding: 20px;
+    text-align: center;
+}
+.main {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.owner-info {
+    background-color: #32CD32;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.owner-info h2 {
+    margin-top: 0;
+}
+.pet-card {
+    background-color: #98FB98;
+    border: 2px solid #32CD32;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.pet-card h3 {
+    margin: 0;
+    color: #32CD32;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.button {
+    background-color: #98FB98;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.button:hover {
+    background-color: #228B22;
+}
+footer {
+    background-color: #32CD32;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

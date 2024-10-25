@@ -1,0 +1,39 @@
+nav {
+    background-color: #ececec;
+    height: calc(80vh - 20px);
+    padding: 15vh 0 5vh 0;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.pages-list-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.pages-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.page-item {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 0;
+    width: 85%;
+    border-radius: 10px;
+}
+.page-item:hover {
+    background-color: #d4d4d4;
+}
+
