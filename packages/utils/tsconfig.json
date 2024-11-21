@@ -1,0 +1,11 @@
+{
+  "extends": "@repo/typescript-config/shared-library.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./dist/.tmp/tsconfig.tsbuildinfo",
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": [
+    "src"
+  ]
+}
