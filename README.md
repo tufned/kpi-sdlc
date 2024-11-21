@@ -1,8 +1,3 @@
-## Authors
-
-- Denys Funderat
-- Dmytro Seredenko
-
 ## Contributing
 
 1. Create an **issue**. Assign yourself
