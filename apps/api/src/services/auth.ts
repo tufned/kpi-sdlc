@@ -3,6 +3,7 @@ import { UserInterface } from '../types/models/user.interface.js';
 import { createError } from '../utils/errorsHelpers.js';
 import { errors } from '../constants/errors.js';
 import { compareHashes, getHash } from '../utils/hashHelpers.js';
+import tokenService from './token.js';
 
 const authService = {
   signup: async (user: UserInterface) => {
@@ -18,13 +19,15 @@ const authService = {
     const checkedPassword = await compareHashes(password, foundUser.password);
     if (!checkedPassword) throw createError(401, errors.INCORRECT_CREDENTIALS);
 
-    return {
-      accessToken: 'accessToken',
-      refreshToken: 'refreshToken'
-    };
+    const { _id, fullname } = foundUser;
+    const tokens = tokenService.generateTokens({ id: _id, fullname });
+
+    return tokens;
   },
 
-  logout: async () => {}
+  logout: async () => {
+    tokenService.removeRefreshToken();
+  }
 };
 
 export default authService;
